@@ -1,138 +1,140 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 .topo {
-    width: 100%;
-    height: 65px;
-    background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 65px;
+  background-color: rgb(255, 255, 255);
 }
-.content{
-    width: 90%;
-    height: 100%;
-    max-width: 1440px;
-    margin: auto;
+.content {
+  width: 90%;
+  height: 100%;
+  max-width: 1440px;
+  margin: auto;
 }
-.flex{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.topo ul a{
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;  
-    color: black;
+.topo ul a {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  color: black;
 }
-.menu ul{
-    width: 182px;
-    list-style-type: none;
+.menu ul {
+  width: 182px;
+  list-style-type: none;
 }
 .banner {
-    background-color: #D7D5FF;
-    width: 100%;
-    height: 560px;
-  }
-  .textos {
-    text-align: right;
-    font-family: 'Raleway', sans-serif; 
-    color: #fff;
-  }
-.texto h1{
-      font-size: 36px;
-      font-family: 'Raleway', sans-serif;
-  }
-.texto p{
-    font-size: 19px;
-    font-family: 'Raleway', sans-serif;
-    
-  }
-#btn_contato{
-    width: 156.2px;
-    height: 50px;
-    font-size: 20px;
-    font-family: 'Raleway', sans-serif;
-    border-radius: 5px;
-    border: none;
-    font-weight: bold;
-    color: #ffffff;
-    background-color: #6C63FF;
+  background-color: #d7d5ff;
+  width: 100%;
+  height: 560px;
 }
-.cartoes h2{
-    font-size: 32px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    display: flex;
-    justify-content: center;
-     margin-top: 50px;
+.textos {
+  text-align: right;
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+}
+.texto h1 {
+  font-size: 36px;
+  font-family: "Raleway", sans-serif;
+}
+.texto p {
+  font-size: 19px;
+  font-family: "Raleway", sans-serif;
+}
+#btn_contato {
+  width: 156.2px;
+  height: 50px;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #6c63ff;
+}
+.cartoes h2 {
+  font-size: 32px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
 }
 .cartoes .cartoes_cards {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 100px;
-    padding-bottom: 40px;
-  }
-  
-  .cartoes_card {
-    width: 100%;
-    height: 423px;
-    margin-top: 100px;
-    transition: all 0.4s;
-  } 
-  
-  .cartoes_card:hover {
-    transform: translateY(-20px);
-    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
-  }
-  
-  .artigo_cor {
-    width: 100%;
-    height: 55%;
-    background-color: #FF6363;
-    border-radius: 10px 10px 0px 0px;
-  }
-  
-  .artigos_texto {
-    width: 100%;
-    height: 45%;
-    border: 1px solid #dcdcdc;
-    padding: 25px 30px;
-    border-radius: 0px 0px 10px 10px;
-  }
-  
-  .artigos_texto h3 {
-    font-size: 24px;
-  }
-  
-  .artigos_texto p {
-    font-size: 18px;
-  }
-.formulario_cor{
-    width: 100%;
-    height: 750px;
-    padding-top: 90px;
-    background-color: #D7D4FF;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 100px;
+  padding-bottom: 40px;
 }
-.titulo_forms h2{
-    display: flex;
-    justify-content: center;
-    font-family: 'Raleway', sans-serif;  
-    font-size: 32px;
+
+.cartoes_card {
+  width: 100%;
+  height: 423px;
+  margin-top: 100px;
+  transition: all 0.4s;
 }
-.formulario{
-    display: flex; 
-    flex-direction: column;
-    align-items: center;
-    
+
+.cartoes_card:hover {
+  transform: translateY(-20px);
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
 }
-.inputs{
-    width: 460px;
-    height: 60px;
-    margin-top: 100px;
-    padding: 10px;
-    border-radius: 5px;
+
+.artigo_cor {
+  width: 100%;
+  height: 55%;
+  background-color: #ff6363;
+  border-radius: 10px 10px 0px 0px;
 }
-  
+
+.artigos_texto {
+  width: 100%;
+  height: 45%;
+  border: 1px solid #dcdcdc;
+  padding: 25px 30px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.artigos_texto h3 {
+  font-size: 24px;
+}
+
+.artigos_texto p {
+  font-size: 18px;
+}
+.formulario_cor {
+  width: 100%;
+  height: 750px;
+  padding-top: 90px;
+  background-color: #d7d4ff;
+}
+.titulo_forms h2 {
+  display: flex;
+  justify-content: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 32px;
+}
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+.inputs {
+  width: 460px;
+  height: 60px;
+  /* margin-top: 100px; */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.inputs + .inputs {
+  margin-top: 20px;
+}
